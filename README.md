@@ -1,6 +1,6 @@
 <h1>
 <p align="center">
-  Wazuh Server
+  Wazuh - Intrusion Detection System
 </p>
 </h1>
 
@@ -10,7 +10,17 @@
 Wazuh is an open-source security platform that provides comprehensive intrusion detection system (IDS) capabilities by monitoring systems, networks, and applications for suspicious activity and potential threats.
 </p>
 
-https://github.com/fayasmh07/Wazuh-Server/assets/97302873/9cce5bdd-b4b7-4d2b-adf2-3b616664f76a
+![wazuh-dashboard-wide](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/2eede27b-0af1-442b-8618-3c04b0e181d3)
 
+# Setting Up Wazuh System
+Setting up Wazuh IDS contains mainly 2 parts :
+1. Wazuh Server
+2. Wazuh Agent
+
+The **Wazuh Server** acts as the central management and processing hub, collecting, analyzing, and storing security data from various sources, including Wazuh agents and external logs, to provide comprehensive threat detection and response capabilities.
+
+**Wazuh Agents** are lightweight, deployed on endpoint devices, and tasked with collecting and forwarding local logs, system metrics, and security events to the Wazuh server for centralized analysis and alerting.
+
+# Implemneting Wazuh Server
 
 
