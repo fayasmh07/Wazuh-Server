@@ -43,7 +43,7 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 `sudo curl -sO https://packages.wazuh.com/4.8/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
 - It downloads and installs the WAZUH server config files in your system.
 - Also after the installation process I got the username and password for the Wazuh Server Dashboard.
-- By using my **Ubuntu** system IP address (private IP) i could get get into the Wazuh Dashboard.
+- By using my **Ubuntu** system IP address (private IP) I could get get into the Wazuh Dashboard.
 
 ![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/d3b46afe-c3a9-4255-827d-03abd54bdfc9)
 
