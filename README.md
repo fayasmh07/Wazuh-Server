@@ -1,6 +1,6 @@
 <h1>
 <p align="center">
-  Wazuh-Server
+  Wazuh Server
 </p>
 </h1>
 
