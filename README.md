@@ -27,8 +27,8 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 ![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/03266635-e4b4-4255-b858-0035eaa48463)
  
  - You can choose any of the above Operating System
- - I choose <a href="https://ubuntu.com/download/desktop">Ubuntu</a> for this.
- - Its open-source, also easy to manage as a wazuh server.
+ - I choose <a href="https://ubuntu.com/download/desktop">Ubuntu 22.04</a> for this.
+ - Its open-source, light-weight, also easy to manage as a wazuh server.
 
 &nbsp;
 
@@ -46,6 +46,12 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 - By using my **Ubuntu** system IP address (private IP) I could get get into the Wazuh Dashboard.
 
 ![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/d3b46afe-c3a9-4255-827d-03abd54bdfc9)
+
+&nbsp;
+
+# Implementing Wazuh Agents (Endpoints)
+### On Linux
+1. Access the  Wazuh Dashboard 
 
 
 
