@@ -10,4 +10,7 @@
 Wazuh is an open-source security platform that provides comprehensive intrusion detection system (IDS) capabilities by monitoring systems, networks, and applications for suspicious activity and potential threats.
 </p>
 
+https://github.com/fayasmh07/Wazuh-Server/assets/97302873/9cce5bdd-b4b7-4d2b-adf2-3b616664f76a
+
+
 
