@@ -34,7 +34,7 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 
 2. Setup the Ubuntu Virtual machine 
 
-![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/a25a56d4-8066-48e4-8ef5-c764aaf8f4fd)
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/baec5bcc-bc21-4a6b-9b68-a201c2d8267c)
 
 &nbsp;
 
@@ -45,13 +45,43 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 - Also after the installation process I got the username and password for the Wazuh Server Dashboard.
 - By using my **Ubuntu** system IP address (private IP) I could get get into the Wazuh Dashboard.
 
-![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/d3b46afe-c3a9-4255-827d-03abd54bdfc9)
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/6ee1990f-79a4-4df5-83e8-e289217fe338)
 
 &nbsp;
 
 # Implementing Wazuh Agents (Endpoints)
 ### On Linux
 1. Access the  Wazuh Dashboard 
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/2e71583f-ca3a-4b90-b8da-afb36ab2c7d2)
+
+2. Click the Add Agent link to add a new endpoint device for monitoring
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/af0df359-00a3-4611-84a1-0528443f9d1b)
+
+3. Here I'm selecting the DEBIAN amd64 for my Kali Linux laptop & setting the IP address of my ubuntu system (wazuh server).
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/d9a12e41-01d7-4d0c-804c-e594d725f6dc)
+
+4. After setting up my agent name and group, i got the bash commands to install Wazuh Agent in my Kali Linux Laptop.
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/1b461eb5-0886-47d0-96ee-57b07095d947)
+
+5. After providing the commands, Wazuh Agent starts to run in my Linux Distro
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/8f98e81d-b049-4275-b3d0-e68749b49db1)
+
+6. Now the endpoint has been added to the server.
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/a2f894bf-79a1-4e38-9371-8ff435d884fc)
+
+&nbsp;
+
+### On Windows
+
+
+
+
 
 
 
