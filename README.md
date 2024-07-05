@@ -22,5 +22,31 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 **Wazuh Agents** are lightweight, deployed on endpoint devices, and tasked with collecting and forwarding local logs, system metrics, and security events to the Wazuh server for centralized analysis and alerting.
 
 # Implemneting Wazuh Server
+1. For setting up the server its better to use Wazuh Assistant in an Linux Based Operating system than using Wazuh OVA Virtual Machine.
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/03266635-e4b4-4255-b858-0035eaa48463)
+ 
+ - You can choose any of the above Operating System
+ - I choose <a href="https://ubuntu.com/download/desktop">Ubuntu</a> for this.
+ - Its open-source, also easy to manage as a wazuh server.
+
+&nbsp;
+
+2. Setup the Ubuntu Virtual machine 
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/a25a56d4-8066-48e4-8ef5-c764aaf8f4fd)
+
+&nbsp;
+
+3. Open a `Terminal` and paste this code below :
+
+`sudo curl -sO https://packages.wazuh.com/4.8/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
+- It downloads and installs the WAZUH server config files in your system.
+- Also after the installation process I got the username and password for the Wazuh Server Dashboard.
+- By using my **Ubuntu** system IP address (private IP) i could get get into the Wazuh Dashboard.
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/d3b46afe-c3a9-4255-827d-03abd54bdfc9)
+
+
 
 
