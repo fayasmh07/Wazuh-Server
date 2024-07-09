@@ -78,6 +78,34 @@ The **Wazuh Server** acts as the central management and processing hub, collecti
 &nbsp;
 
 ### On Windows
+1. Access the Wazuh Dashboard
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/aefa67ef-0561-49d9-a5a4-62a3475a4b74)
+
+2. click on the Add New Agent
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/af0df359-00a3-4611-84a1-0528443f9d1b)
+
+3. I need to install the Wazuh Agent on the Windows, so im selecting the Windows version
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/54863751-bc0f-4b2e-b3f1-378300710eae)
+
+4. Now giving the Agent name and group, After that I get the commands to start Wazuh Agent in Windows.
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/ee42824c-e803-4eb7-9723-7136c7559d95)
+
+5. copy the commands and paste in the windows powershell (Powershell should be run as **administrator**
+
+![Screenshot 2024-07-09 115437](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/4972798b-5899-4469-b973-c3512bb2cc2e)
+
+![Screenshot 2024-07-09 115512](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/4961dc21-3e92-48fa-ad2a-ca2954347644)
+
+6. After that my Windows system has been added to the Wazuh IDS.
+
+![image](https://github.com/fayasmh07/Wazuh-Server/assets/97302873/21b74056-091d-4c43-a20e-5ffc870807ef)
+
+
+
 
 
 
